@@ -1,0 +1,196 @@
+[{
+  "_id": {
+    "$oid": "66f09b2e21d26425494514ce"
+  },
+  "status": "Pronto",
+  "produtos": [
+    {
+      "produto": {
+        "$oid": "66f093c021d2642549451498"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09b2e21d26425494514cf"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f095cf21d26425494514a1"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09b2e21d26425494514d0"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f096af21d26425494514a8"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09b2e21d26425494514d1"
+      }
+    }
+  ],
+  "cliente": "12345678901",
+  "total": 40,
+  "senha": "0988",
+  "transacao": {
+    "$oid": "66f09b2f21d26425494514d3"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727044398936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046211285"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f09fa8873e19ca7001bc3a"
+  },
+  "status": "Em preparação",
+  "produtos": [
+    {
+      "produto": {
+        "$oid": "66f094b321d264254945149d"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09fa8873e19ca7001bc3b"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f0972121d26425494514ae"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09fa8873e19ca7001bc3c"
+      }
+    }
+  ],
+  "cliente": "12345678902",
+  "total": 25,
+  "senha": "7204",
+  "transacao": {
+    "$oid": "66f09fa8873e19ca7001bc3e"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727045544700"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046444269"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f09ffa873e19ca7001bc4a"
+  },
+  "status": "Em preparação",
+  "produtos": [
+    {
+      "produto": {
+        "$oid": "66f094b321d264254945149d"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09ffa873e19ca7001bc4b"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f095ea21d26425494514a3"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09ffa873e19ca7001bc4c"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f096f121d26425494514ac"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09ffa873e19ca7001bc4d"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f098aa21d26425494514b6"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f09ffa873e19ca7001bc4e"
+      }
+    }
+  ],
+  "cliente": null,
+  "total": 41,
+  "senha": "5879",
+  "transacao": {
+    "$oid": "66f09ffb873e19ca7001bc50"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727045626897"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046455747"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f0a362efe18f6be072e46f"
+  },
+  "status": "Recebido",
+  "produtos": [
+    {
+      "produto": {
+        "$oid": "66f093c021d2642549451498"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f0a362efe18f6be072e470"
+      }
+    },
+    {
+      "produto": {
+        "$oid": "66f096d321d26425494514aa"
+      },
+      "quantidade": 1,
+      "_id": {
+        "$oid": "66f0a362efe18f6be072e471"
+      }
+    }
+  ],
+  "cliente": null,
+  "total": 30,
+  "senha": "1990",
+  "transacao": {
+    "$oid": "66f0a363efe18f6be072e473"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727046498938"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046499458"
+    }
+  },
+  "__v": 0
+}]

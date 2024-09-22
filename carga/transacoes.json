@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "66f09b2f21d26425494514d3"
+  },
+  "pedido": {
+    "$oid": "66f09b2e21d26425494514ce"
+  },
+  "valor": 40,
+  "pagamentoStatus": "Aprovado",
+  "idTransacaoExterna": "5e65faf0-f909-4612-a1a6-f85f575e6009",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727044399109"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046155819"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f09fa8873e19ca7001bc3e"
+  },
+  "pedido": {
+    "$oid": "66f09fa8873e19ca7001bc3a"
+  },
+  "valor": 25,
+  "pagamentoStatus": "Aprovado",
+  "idTransacaoExterna": "efc0b197-9c01-4d87-b3bc-24307ccf735b",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727045544892"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046383476"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f09ffb873e19ca7001bc50"
+  },
+  "pedido": {
+    "$oid": "66f09ffa873e19ca7001bc4a"
+  },
+  "valor": 41,
+  "pagamentoStatus": "Aprovado",
+  "idTransacaoExterna": "0b2a269f-629b-4521-8ec1-045ccfa1c99d",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727045627067"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046396357"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66f0a363efe18f6be072e473"
+  },
+  "pedido": {
+    "$oid": "66f0a362efe18f6be072e46f"
+  },
+  "valor": 30,
+  "pagamentoStatus": "Pendente",
+  "idTransacaoExterna": "51d3dc8f-587f-41c1-8127-cdfccf9d3371",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1727046499138"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1727046499138"
+    }
+  },
+  "__v": 0
+}]
