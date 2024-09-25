@@ -43,4 +43,6 @@ const Schema = new mongoose.Schema({
   toJSON: { virtuals: true },
 })
 
+Schema.index({ status: 1, createdAt: 1 })
+
 export const PedidoModel = mongoConnection.model('pedidos', Schema)
