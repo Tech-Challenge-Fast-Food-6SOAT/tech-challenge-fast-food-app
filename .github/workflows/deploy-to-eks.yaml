@@ -33,7 +33,6 @@ jobs:
       - name: Deploy to EKS
         run: |
           kubectl apply -f "k8s/configmap.yaml" -n lanchonete
-          kubectl create secret generic nodejs-app-secrets --from-literal=MONGODB_URL=${{ secrets.MONGODB_URL }} -n lanchonete
           kubectl apply -f "k8s/deployment.yaml" -n lanchonete
           kubectl apply -f "k8s/service.yaml" -n lanchonete
           kubectl apply -f "k8s/hpa.yaml" -n lanchonete
