@@ -28,4 +28,6 @@ const Schema = new mongoose.Schema(
   }
 );
 
+Schema.index({ pedido: 1 });
+
 export const TransacaoModel = mongoConnection.model("transacoes", Schema);

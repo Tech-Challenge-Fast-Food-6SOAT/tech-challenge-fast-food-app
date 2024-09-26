@@ -27,4 +27,6 @@ const Schema = new mongoose.Schema({
   toJSON: { virtuals: true },
 })
 
+Schema.index({ categoria: 1 })
+
 export const ProdutoModel = mongoConnection.model('produtos', Schema)
