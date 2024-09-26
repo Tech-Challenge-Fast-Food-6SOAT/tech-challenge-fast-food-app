@@ -1,13 +1,15 @@
-name: DEPLOY PROD
+name: Deploy to DockerHub
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'src/**'
   workflow_dispatch:
 
 jobs:
   deploy:
-    name: DEPLOY PROD
+    name: Deploy to DockerHub
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
