@@ -1,4 +1,4 @@
-import {Produto, Status, Transacao } from "../entities"
+import {Produto, Transacao, Status } from "../entities"
 
 export type PedidoProdutos = {
   cliente: string | null
