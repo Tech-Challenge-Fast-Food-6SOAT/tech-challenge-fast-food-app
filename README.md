@@ -17,6 +17,10 @@ MONGODB_URL
 DOCKERHUB_TOKEN
 ```
 
+## Desenho da modelagem banco de dados
+![Desenho da modelagem banco de dados](modelagem_banco_de_dados.png)
+
+
 ## Como rodar o projeto local?
 ### Docker compose
 - Para iniciar
